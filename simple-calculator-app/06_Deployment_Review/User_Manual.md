@@ -11,6 +11,7 @@
 - คูณ ( × )
 - หาร ( ÷ )
 - ล้างค่าการคำนวณ (AC)
+![image alt](https://github.com/nuttika-24/Final-Project-/blob/e20b1198fe65ef15991220d483f553ed37d852cb/simple-calculator-app/06_Deployment_Review/image.png)
 ระบบออกแบบให้ใช้งานง่าย ปุ่มมีขนาดใหญ่ อ่านชัดเจน รองรับการกดตัวเลขหลายหลัก และมีระบบแจ้งเตือนเมื่อเกิดข้อผิดพลาด เช่น หารด้วยศูนย์
 
 ---
