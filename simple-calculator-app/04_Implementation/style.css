@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #efefef;
+  margin: 0;
+}
+
+.calculator {
+  width: 330px;
+  padding: 25px 20px;
+}
+
+#display {
+  width: 100%;
+  height: 80px;
+  font-size: 40px;
+  text-align: right;
+  padding: 10px;
+  border: none;
+  background: #eeeeee;
+  border-radius: 15px;
+  margin-bottom: 25px;
+  box-shadow: inset 0 0 6px rgba(0,0,0,0.15);
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 12px;
+}
+
+/* ปุ่มกลม */
+.buttons button {
+  height: 65px;
+  font-size: 26px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.15s;
+}
+
+/* ปุ่มสีเทาอ่อน (AC, +-, %) */
+.light {
+  background: #d6d6d6;
+  color: #000;
+}
+
+/* ปุ่มสีเทาเข้ม (ตัวเลข) */
+.dark {
+  background: #555;
+  color: white;
+}
+
+/* ปุ่มส้ม (operator) */
+.orange {
+  background: #ff9f0a;
+  color: white;
+}
+
+/* ปุ่ม = */
+.equals {
+  background: #ff9f0a !important;
+}
+
+/* Hover Effect */
+button:hover {
+  transform: scale(1.08);
+}
+
+/* Active Effect */
+button:active {
+  transform: scale(0.92);
+}
