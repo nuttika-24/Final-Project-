@@ -11,7 +11,7 @@
 - คูณ ( × )
 - หาร ( ÷ )
 - ล้างค่าการคำนวณ (AC)
-(file:///D:/final%20cs436/simple-calculator-app/02_UX_UI_Design/Prototype.png)
+! (https://redundant-gold-kkffco4tmg-ah49hqu12b.edgeone.dev/Prototype.png)
 ระบบออกแบบให้ใช้งานง่าย ปุ่มมีขนาดใหญ่ อ่านชัดเจน รองรับการกดตัวเลขหลายหลัก และมีระบบแจ้งเตือนเมื่อเกิดข้อผิดพลาด เช่น หารด้วยศูนย์
 
 ---
